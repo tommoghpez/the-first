@@ -13,7 +13,7 @@ import yt_dlp
 OUT_CSV = Path("data/videos.csv")
 
 # 日本M&Aセンター公式チャンネルのURL（仮）
-CHANNEL_URL = "https://www.youtube.com/@nihonma"
+CHANNEL_URL = "https://www.youtube.com/@nihonma/videos"
 
 def fetch_videos(channel_url: str, limit: int = 10):
     ydl_opts = {
