@@ -1,0 +1,2 @@
+https://example.com/video1
+https://example.com/video2
